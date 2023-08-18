@@ -1,0 +1,19 @@
+ @charsetn "UTF-8";
+
+ body {
+            background-color: rgb(5, 1, 1);
+            font-size: 28px;
+            font-family: 'Times New Roman';
+        }
+        h1 {
+            color: azure;
+            background-color: goldenrod;
+        }
+        h2 {
+            color: aliceblue;
+        
+        }
+        p {
+            color: aliceblue;
+            text-align: justify;
+        }
