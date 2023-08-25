@@ -9,17 +9,19 @@
 <body>
 <main>
     <h1>Cadastro</h1>
+    <div class="linha-horizontal"></div>
     <form action="processar_formulario.php" method="POST">
-        <label for="nome">Seu nome: <br> </label>
-        <input type="text" id="nome" name="nome" required>
+        <div>
+        <label for="nome">Seu nome <br> </label>
+        <input class="input100" type="text" id="nome" name="nome" required placeholder="Lucas Vialuz">
         <br>
-        <label for="email">Seu e-mail: <br> </label>
-        <input type="email" id="email" name="email" required>
+        <label for="email">Seu e-mail <br> </label>
+        <input class="input100" type="email" id="email" name="email" required placeholder="contato@htmlcsspro.com">
         <br>
-        <label for="senha">Senha: <br> </label>
-        <input type="password" id="senha" name="senha" required>
+        <label for="senha">Senha <br> </label>
+        <input class="input100" type="password" id="senha" name="senha" required placeholder="1234">
         <br>
-
+        </div>
         <in><input type="submit" value="Cadastrar"></in>
 
     </form>
