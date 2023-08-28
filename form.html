@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <h1>Cadastro</h1>
+    <div class="linha-horizontal"></div>
+    <form action="processar_formulario.php" method="POST">
+        <div>
+        <label for="nome">Seu nome <br> </label>
+        <input class="input100" type="text" id="nome" name="nome" required placeholder="Lucas Vialuz">
+        <br>
+        <label for="email">Seu e-mail <br> </label>
+        <input class="input100" type="email" id="email" name="email" required placeholder="contato@htmlcsspro.com">
+        <br>
+        <label for="senha">Senha <br> </label>
+        <input class="input100" type="password" id="senha" name="senha" required placeholder="1234">
+        <br>
+        </div>
+        <in><input type="submit" value="Cadastrar"></in>
+
+    </form>
+
+    <footer>
+        <p>Já tem conta? <a href="#">Ir para login</a></p>
+    </footer>
+</main>
+</body>
+</html>
