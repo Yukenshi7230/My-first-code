@@ -99,7 +99,7 @@ header > p {
     color: white;
     font-family: var(--fonte-padrão);
     font-size: 1.2em;
-    text-align: justify;
+    text-align: center;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
