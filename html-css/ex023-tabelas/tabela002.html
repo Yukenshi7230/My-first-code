@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(44, 50, 54);
+            color: white;
+        }
+        td.num {
+            text-align: right;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 30px;
+        }
+        tbody > tr:nth-child(odd)  {
+            background-color: rgba(175, 214, 214, 0.158);
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- 
+        Anatomia ára tabelas grandes TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+
+    <table>
+        <caption>Número de habitantes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2482384938</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">4929322</td>
+            </tr>
+                <td>Ceará</td>
+                <td class="num">2949323</td>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">3043493</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">30430434</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">20493204923</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <strong>
+                    <th scope="row">042392392390</th>
+                </strong>
+            </tr>
+           
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam aliquam quos recusandae saepe perferendis reprehenderit deserunt facilis possimus sed dolorum iusto vel libero aperiam minus ducimus nobis officiis dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam alias dolorum nihil hic molestias sequi atque, unde fuga ducimus incidunt quidem repudiandae, quibusdam veritatis, modi rerum. Consectetur ipsam quia facilis?</p>
+    
+</body>
+</html>
