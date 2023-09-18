@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+            background-color: rgb(142, 159, 216);
+            color: white;
+            font: normal 18px serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>A Isabela, minha prometida, o mundo feito para nós dois, estamos aqui e ficaremos ali pra cá. Sem mais guerras. Sem mais dores. Sem mais pranto. Vamos retomar ao estado inicial. O mundo sem Ivana. O mundo sem Yanni. O mundo sem prazer carnal. O mundo ideal e prematuro. Onde todos nós estaremos lá... Sem brigas... Intrigas... Desacordos... </h1>
+
+    <H1>Iniciando dom</H1>
+    <P>No inferno se desculpe com meus irmãos</P>
+    <p>Aprendendo a usar <strong> DOM </strong> em JavaScript.</p>
+    <div id="amores">Clique em mim</div>
+    <div name="sonho"> Sonhos flácidos repleto de memórias ilustres.</div>
+    <script>
+        var corpo = window.document.body
+
+        var h1 = window.document.getElementsByTagName('h1')[0]
+
+        var p1 = window.document.getElementsByTagName('p')[1] // Selecionei por tagname, no caso o 'p' (paragraph), e o que está no colchete [X] é o parágrafo.
+        var d = window.document.getElementById('amores') // Aqui foi utilizado a id dentro da diva
+        var n = window.document.getElementsByName('sonho') [0] // Aqui foi por nome na segunda div.
+ 
+        window.document.write('Está escrito assim: ' + p1.innerText)
+        p1.style.color = 'blue'
+        corpo.style.background = 'black'
+
+        /*
+        window.alert(h1.innerText)
+
+        window.alert(p1.innerText)
+        */
+
+        d.style.background = 'green'
+    
+        n.style.background = 'CYAN'
+
+
+
+
+        var o = window.document.querySelector('div#amores')
+        .style.color = 'pink'
+
+    </script>
+    
+</body>
+</html>
