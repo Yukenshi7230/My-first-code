@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+    
+    var name = window.prompt('Qual é o seu nome?');
+    document.write(`Olá ${name}. Seu nome tem ${name.length} letras.<br>`);
+    document.write(`Seu nome em maiúsculo fica ${name.toUpperCase()}.<br>`);
+    document.write(`Seu nome em minúsculo fica ${name.toLowerCase()}. <br>`);
+
+    var n1 = parseFloat(window.prompt('Digite um número para ser formatado como moeda brasileira (BRL) '));
+
+// Verifique se n1 é um número válido antes de formatá-lo
+if (!isNaN(n1)) {
+    var n1Formatado = n1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    document.write(n1Formatado);
+} else {
+    document.write('Por favor, digite um número válido.');
+}
+
+    </script>
+</body>
+</html>

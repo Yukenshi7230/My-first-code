@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Dom</title>
+    <style>
+        div#area {
+            font: normal 20px serif;
+            background: pink;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> <!-- Foi predestinado uma função ao javascript -->
+        Interaja, querida...
+    </div>
+    
+    <script>
+        var a = window.document.getElementById('area')
+        function clicar() {
+            a.innerText = 'Eu te amo! Hihihi'
+            
+        }
+        function entrar() {
+            a.innerText= 'Basta clicar uwu'
+        }
+        function sair() {
+            a.innerText = "Amava!"
+            a.style.background = "red"
+        }
+    </script>
+</body>
+</html>

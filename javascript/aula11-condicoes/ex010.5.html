@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que país você é?</title> 
+</head>
+<body>
+    <h1>Você é Nativo ou Estrangeiro?</h1> 
+
+
+    Qual é a sua nacionalidade ? 
+
+    <input type="text" name="na" id="nai">
+     <!-- Campo de entrada de texto para inserir a nacionalidade, com um ID "nai" para referência em JavaScript -->
+
+    <input type="button" value="Analisar" onclick="nacionalidade()"> <!-- Botão "Analisar" para disparar a função JavaScript "nacionalidade" ao ser clicado -->
+    
+    <div id="res"></div> <!-- Div onde o resultado será exibido -->
+</body>
+<script>
+
+function nacionalidade() {
+    var nome = window.document.getElementById('nai').value; // Obtém o valor inserido no campo de entrada com ID "nai"
+    var resultado = window.document.querySelector('div#res'); // Seleciona a div com ID "res" para exibir o resultado
+
+    if (nome === 'Brasil') { // Verifica se o valor inserido é igual a "Brasil"
+        resultado.innerHTML = '<p>Você é nativo!</p>'; // Exibe a mensagem se a nacionalidade for "Brasil"
+    } else {
+        resultado.innerHTML = '<p>Você é DO MAL!!!</p>'; // Exibe a mensagem se a nacionalidade não for "Brasil"
+    }
+}
+
+</script>
+</html>

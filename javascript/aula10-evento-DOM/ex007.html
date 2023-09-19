@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Adição</title>
+    <style>
+        body {
+            font: normal 18px Arial;
+        }
+        input {
+            font: normal 18px Arial;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" name="t1" id="t1"> +|-|/|x
+    <input type="number" name="t2" id="t2">
+    <input type="button" value="Somar" onclick="somar()">
+    <input type="button" value="Subtrair" onclick="sub()">
+    <input type="button" value="Multiplicar" onclick="multi()">
+    <input type="button" value="Dividir" onclick="div()">
+    <div id="res"> RESULTADO </div>
+    
+    <script>
+        function somar() {
+            var t1 = window.document.getElementById('t1')
+            var t2 = window.document.getElementById('t2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(t1.value)
+            var n2 = Number(t2.value)
+            var s = n1 + n2
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`;
+        }
+        function sub() {
+            var t1 = window.document.getElementById('t1')
+            var t2 = window.document.getElementById('t2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(t1.value)
+            var n2 = Number(t2.value)
+            var s = n1 - n2
+            res.innerHTML = `A subtração entre ${n1} e ${n2} é igual a ${s}`;
+        }
+        function multi() {
+            var t1 = window.document.getElementById('t1')
+            var t2 = window.document.getElementById('t2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(t1.value)
+            var n2 = Number(t2.value)
+            var s = n1 * n2
+            res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a ${s}`;
+        }
+        function div() {
+            var t1 = window.document.getElementById('t1')
+            var t2 = window.document.getElementById('t2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(t1.value)
+            var n2 = Number(t2.value)
+            var s = n1 / n2
+            res.innerHTML = `A divisão entre ${n1} e ${n2} é igual a ${s}`;
+        }
+    </script>
+</body>
+</html>
+
