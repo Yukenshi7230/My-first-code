@@ -1,0 +1,18 @@
+Foi interessante fazer esse curso. Porém você não pode continuar os estudos enquanto não tiver calma... Você fez o curso em uma semana, você absorveu muita coisa em pouco tempo e não é desse jeito que se faz. 
+
+Ainda há im caminho àrduo pelo frente. Lembre-se que com o Photoshop levou 3 semanas, para estudar Química Orgânica levou 2 semanas, Matemática Básica levou meses até estar no nível que você está agora. Então, a partir de agora, você vai ir com calma quanto ao javascript.
+
+Quando você tiver mais tempo, busque refazer os exercícios de (desafio 01 ao desafio 05)... Quando você estiver mais afiado, é chegado a hora do que está por vir logo abaixo.
+
+
+
+
+Estudar após os conselhos
+ 
+ *Functions
+ *Objects
+ *Modularization/Encapsulation
+ *RegEX
+ *jSON
+ *AJAX
+ *NodeJS ---> Frameworks and API
